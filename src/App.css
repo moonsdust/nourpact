@@ -1,20 +1,24 @@
-.App {
+a {
+  text-decoration: none;
+}
+
+button a{
+  color: #373737;
+}
+
+button a:hover{
+  color: #FFFFFF;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: url("/src/imgs/gradientbg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,10 +28,78 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Headers */
+.header {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+  background: linear-gradient(90deg,#FFFFFF, #B3D4DD, #73A57F);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
+/* Nav bar */
+nav {
+  font-size: 0.7em;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+nav a {
+  margin: 0px 1em 0px 1em;
+}
+
+/* Home page */
+.Home-header {
+  margin-top: -70px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Home page Buttons */
+.homeButton {
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #373737;
+  cursor: pointer;
+  margin: 16px 6px 0 6px;
+  padding: 1.5% 1.5%;
+  border: 10px;
+  border-radius: 10px;
+  background-color: #73A57F;
+}
+
+.homeButton:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.buttonsSidebyside {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+*/
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+
+/*
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +108,4 @@
     transform: rotate(360deg);
   }
 }
+*/

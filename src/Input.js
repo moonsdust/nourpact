@@ -9,8 +9,8 @@ function App() {
         <a>Our Team</a>
       </nav>
       <header className="Home-header">
-        <div className="header">Nourpact</div>
-        <p>nourishment & impact. <br></br>the app to tackle food waste.</p>
+        <div className="header">HHIIII</div>
+        <p>nourishment & impact. <br></br>the food waste reducing app.</p>
         <div className='buttonsSidebyside'>
           <button className='homeButton'>Look for Food Banks</button>
           <button className='homeButton'>Recipes with Leftovers</button>

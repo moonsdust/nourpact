@@ -12,7 +12,7 @@ function App() {
         <div className="header">Nourpact</div>
         <p>nourishment & impact. <br></br>the app to tackle food waste.</p>
         <div className='buttonsSidebyside'>
-          <button className='homeButton'>Look for Food Banks</button>
+          <button className='homeButton'>Look for Food Rescue Places</button>
           <button className='homeButton'>Recipes with Leftovers</button>
         </div>
       </header>

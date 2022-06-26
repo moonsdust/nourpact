@@ -1,6 +1,7 @@
 # https://help.github.com/articles/ignoring-files/ for more information about ignoring files.
 
 # Dependencies
+/node_modules
 /node_modules/.cache
 
 # Misc

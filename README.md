@@ -10,14 +10,14 @@ Nourpact helps users to reduce their food waste by locating a food rescue organi
 ## How we built it 🔧
 To build our application, we used ReactJS and CSS and the API we used was SerpApi. We hosted our web application on Netlify and our domain is from domain.com. We initially designed our application using Figma to create mockups.
 
-How Nourpact gets Recipes for Leftovers: 
+**How Nourpact gets Recipes for Leftovers:**
 1. User inputs their leftover food
 2. Nourpact converts input into a query 
 3. SerpAPI scrapes Google for recipes 
 4. NourPact converts and filters scrapped data into usable data
 5. Displays and formats data as images, titles, and links
 
-How Nourpact gets Nearby Food Rescues: 
+**How Nourpact gets Nearby Food Rescues:**
 1. User requests a search
 2. NourPact Calls SerpAPI with location parameters
 3. SerpAPI scraps google for Food rescues

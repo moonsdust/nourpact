@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27');
+
+a{
+    text-decoration: none;
+}
+.verticalwrapper{
+    transform:scale(0.7);
+    margin-top:20rem;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+
+.card__sumrescue{
+    font-weight:700;
+    margin-top:1 rem;
+    color:rgb(100, 100, 100);
+    font-family: 'Archivo', 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+    padding:0.5rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+.big{
+    margin-top:-300px;
+    margin-bottom:70px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.cardrescue{
+    margin-top: 40px;
+    margin-left:20rem;
+    margin-right:20rem;
+    background-color: white;
+    overflow:hidden;
+    box-shadow:0 5px 20px #e1e5ee;
+    
+    border-radius:1rem; 
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in, background 200ms ease-in, color 200ms ease-in;
+}
+
+.card__titlerescue{
+    color:#73a57f;
+    font-family: 'Archivo', 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+    padding:1rem;
+    text-align: left;
+}
+:hover.cardrescue{
+    transform:scale(1.05);
+}

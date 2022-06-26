@@ -7,10 +7,10 @@ function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
-        <h1>Nourpact</h1>
+        <h3>Nourpact</h3>
         <p>nourishment & impact. <br></br>the app to tackle food waste.</p>
         <div className='buttonsSidebyside'>
-          <button className="homeButton">Look for Food Rescue Places</button>
+          <button className="homeButton" onClick={() => navigate('/FoodRescue')}>Look for Food Rescue Places</button>
           <button className="homeButton" onClick={() => navigate('/Cart')}>Recipes with Leftovers</button>
         </div>
       </header>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27');
+
+
+.wrapper{
+    font-family: 'Archivo', 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(24rem, 30rem));
+    gap:2rem;
+    justify-content:center;
+    background-color: #F5F5F5;
+}
+
+.card{
+    font-family: 'Archivo', 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+    background-color: white;
+    overflow:hidden;
+    box-shadow:0 5px 20px #e1e5ee;
+    margin-top: 200px;
+    border-radius:1rem; 
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+.card__image{
+    height:15rem;
+    width:100%;
+    object-fit:cover;
+    font-family: 'Archivo', 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+}
+.card__title{
+    font-weight:700;
+    margin-top:1rem;
+    color:#73a57f;
+    font-family: 'Archivo', 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+    padding:0.5rem;
+    text-align: center;
+}
+
+.card__btn{
+    padding:1rem;
+    font-weight:bold;
+    font-size:1rem;
+    margin:1rem;
+    background:transparent;
+    color:#73a57f;
+    border:2px solid #73a57f;
+    border-radius:0.2rem;
+    transition:background 200ms ease-in, color 200ms ease-in;
+}
+
+:hover.card{
+    transform:scale(1.05);
+}
+
+:hover.card__btn{
+    border:transparent;
+    background:#73a57f;
+    color:white;
+}

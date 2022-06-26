@@ -5,6 +5,7 @@ import {useNavigate, Link} from 'react-router-dom';
 
 class Cart extends Component{
   constructor(props) {
+    document.body.style.backgroundColor = '#373737';
     super(props);
     this.state = {
       items: []
@@ -37,7 +38,7 @@ class Cart extends Component{
     
   return (
     <div className="cartList">
-      <h2>Type in food items you want recipes for</h2>
+      <h4>Type in food items you want recipes for</h4>
       <div className="container">
 
         <div className="cartInput">

@@ -8,7 +8,7 @@ Food waste is a rising environmental issue caused by overproduction, overbuying,
 Nourpact helps users to reduce their food waste by locating a food rescue organization near them to give unwanted food items and looking up recipes using their food items.
 
 ## How we built it 🔧
-To build our application, we used ReactJS and CSS and the API we used was SerpApi. We initially designed our application using Figma to create mockups.
+To build our application, we used ReactJS and CSS and the API we used was SerpApi. We hosted our web application on Netlify and our domain is from domain.com. We initially designed our application using Figma to create mockups.
 
 How Nourpact gets Recipes for Leftovers: 
 1. User inputs their leftover food
@@ -25,7 +25,7 @@ How Nourpact gets Nearby Food Rescues:
 5. Displays and formats data as titles, locations, and links
 
 ## Challenges we ran into 🗺️
-We faced multiple challenges throughout the hackathon. We ran into issues combining our files since we were relatively new to ReactJS and were working on different files but in the end, we were able to resolve code conflicts. Another challenge we faced was getting the API to work. We also had to cut down on some of the ideas we had planned due to time constraints. 
+We faced multiple challenges throughout the hackathon. We ran into issues combining our files since we were relatively new to ReactJS and were working on different files but in the end, we were able to resolve code conflicts. Another challenge we faced was getting the API to work. We also had to cut down on some of the ideas we had planned due to time constraints.
 
 ## Accomplishments that we're proud of 🏆
 For everyone on the team, SimpliHacks 2.0 is our first hackathon and we are proud of being able to build a product that could potentially impact different communities. We are also proud that we learned how to use ReactJS, an API to scrape data, and an industry-standard design tool like Figma during the hackathon. 

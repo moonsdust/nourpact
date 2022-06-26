@@ -6,9 +6,6 @@ function Home() {
     const navigate = useNavigate();
   return (
     <div className="Home">
-      <nav>
-        <a>Code</a>
-      </nav>
       <header className="Home-header">
         <h1>Nourpact</h1>
         <p>nourishment & impact. <br></br>the app to tackle food waste.</p>

@@ -7,6 +7,14 @@ Food waste is a rising environmental issue caused by overproduction, overbuying,
 ## What it does 🍎
 Nourpact helps users to reduce their food waste by locating a food rescue organization near them to give unwanted food items and looking up recipes using their food items.
 
+## How it Works 🤖
+1. Choose if you want to look for a food rescue place or find recipes for your unwanted food items.
+![Home Page Select](./src/imgs/home-screen-select.gif)
+2. If you choose to find recipes, type in the food items you have and Nourpact will look for recipes using those ingredients.
+![Searching Recipes](./src/imgs/recipes-search.gif)
+3. if you choose to find a food rescue place near you, Nourpact will look for the three nearest food rescues.
+![Looking for Nearby Places](./src/imgs/nearby.gif)
+
 ## How we built it 🔧
 To build our application, we used ReactJS and CSS and the API we used was SerpApi. We hosted our web application on Netlify and our domain is from domain.com. We initially designed our application using Figma to create mockups.
 

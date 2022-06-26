@@ -1,8 +1,8 @@
 # https://help.github.com/articles/ignoring-files/ for more information about ignoring files.
 
 # Dependencies
-/node_modules
-/node_modules/.cache
+node_modules
+node_modules/.cache
 
 # Misc
 .DS_Store
@@ -14,5 +14,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-node_modules/.cache/default-development/1.pack
-*.pack

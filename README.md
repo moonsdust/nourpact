@@ -1,4 +1,4 @@
-# Nourpact (Nourishment and Impact) 🥫🍎🍳
+# Nourpact (Nourishment and Impact) 🥫🍎🍳 (Work in Progress)
 
 **Scroll down to read more!**
 Note: Domain (nourpact.tech) from domain.com.

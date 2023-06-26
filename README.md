@@ -1,4 +1,4 @@
-# Nourpact (Nourishment and Impact) 🥫🍎🍳 (Work in Progress)
+# Nourpact (Nourishment and Impact) 🥫🍎🍳
 
 ## Inspiration 💡
 Food waste is a rising environmental issue caused by overproduction, overbuying, etc. As a result, 1.3 billion tons of food is wasted every year, emitting 3.3 billion metric tons of carbon dioxide, and 35% of food waste is produced by supermarkets throwing away perfectly edible food. We were inspired by these facts and our experience to build a web application to help others reduce their food waste.
